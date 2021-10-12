@@ -1,0 +1,55 @@
+#flexiselDemo1 {
+display:none;
+}
+
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:99999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+}
+
+.nbs-flexisel-inner {
+    overflow:hidden;
+    float:left;
+    width:100%;
+    position: relative;
+}
+
+.nbs-flexisel-item {
+    float:left;
+    margin:0px;
+    padding:0px;
+    position:relative;
+    line-height:0px;
+}
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    width: 22px;
+    height: 22px; 
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0.5;
+    display: none;
+}
+
+.nbs-flexisel-nav-left {
+    left: -8px;
+    top: 50%;
+    background: url(../../../../Home/Error8d57.html) no-repeat;    
+}
+
+.nbs-flexisel-nav-right {
+    right: -6px;
+    background: url(../../../../Home/Error8d57.html) no-repeat;
+}
