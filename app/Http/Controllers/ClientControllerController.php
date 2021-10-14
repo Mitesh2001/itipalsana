@@ -27,11 +27,10 @@ class ClientControllerController extends Controller
         $generals = general::all();
         return view('client.index', compact('slides','principal','trades','gallerys','generals'));
     }
-   
 
 
     public function common_url($id)
-    { 
+    {
         $data = page::where('id',$id)->first();
         if(isset($data))
         {
@@ -42,10 +41,10 @@ class ClientControllerController extends Controller
             abort(404);
         }
     }
-    
 
-   
-    
 
-  
+
+
+
+
 }

@@ -28,7 +28,7 @@ Route::get('/', function () {
  */
 
 
- 
+
 Auth::routes();
 
 
@@ -55,7 +55,6 @@ Route::group(['prefix' => 'application'], function () {
 
 //client
 
-
 Route::resource('/', ClientControllerController::class);
 
 
@@ -65,10 +64,9 @@ Route::get('index/{id}', [ClientControllerController::class, 'common_url'])->whe
 
 Route::get('feedback', function () {
     return view('client.feedback');
-}); 
+});
 
 Route::get('contact-us', function () {
     return view('client.contact-us');
-}); 
- 
- 
+});
+
